@@ -1,0 +1,22 @@
+{
+	"geode": "3.3.1",
+	"gd": {
+		"win": "2.206",
+		"android": "2.206",
+		"mac": "2.206",
+		"ios": "2.206"
+	},
+	"id": "sebashtioon.hidemenuui",
+	"name": "HideMenuUI",
+	"version": "v1.0.0",
+	"developer": "sebashtioon",
+	"description": "Hides the menu UI!",
+	"dependencies": [
+        {
+            "id": "geode.custom-keybinds",
+            "version": ">=v1.7.1",
+            "importance": "required"
+        }
+    ]
+}
+

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/CMakeFiles/result-populate"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/CMakeFiles/74a2645123fec9c72ddc225947515fbe/result-populate.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/CMakeFiles/dc5882b1e4c61b8ae9250d95eebae37c/result-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/CMakeFiles/7b46a872fe39bae86fbacccac2c5455a/result-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/CMakeFiles/7b46a872fe39bae86fbacccac2c5455a/result-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/CMakeFiles/7b46a872fe39bae86fbacccac2c5455a/result-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/CMakeFiles/7b46a872fe39bae86fbacccac2c5455a/result-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/CMakeFiles/7b46a872fe39bae86fbacccac2c5455a/result-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/CMakeFiles/7b46a872fe39bae86fbacccac2c5455a/result-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/CMakeFiles/7b46a872fe39bae86fbacccac2c5455a/result-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/CMakeFiles/7b46a872fe39bae86fbacccac2c5455a/result-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"result-populate"
+		],
+		"name" : "result-populate"
+	}
+}

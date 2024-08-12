@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\tuliphook-subbuild\CMakeFiles\f63916b8888213e48cf96d1cd7ee9a66\tuliphook-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\tuliphook-subbuild\CMakeFiles\f63916b8888213e48cf96d1cd7ee9a66\tuliphook-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\tuliphook-subbuild\CMakeFiles\f63916b8888213e48cf96d1cd7ee9a66\tuliphook-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\tuliphook-subbuild\CMakeFiles\f63916b8888213e48cf96d1cd7ee9a66\tuliphook-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\tuliphook-subbuild\CMakeFiles\f63916b8888213e48cf96d1cd7ee9a66\tuliphook-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\tuliphook-subbuild\CMakeFiles\f63916b8888213e48cf96d1cd7ee9a66\tuliphook-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\tuliphook-subbuild\CMakeFiles\f63916b8888213e48cf96d1cd7ee9a66\tuliphook-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\tuliphook-subbuild\CMakeFiles\f63916b8888213e48cf96d1cd7ee9a66\tuliphook-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\tuliphook-subbuild\CMakeFiles\c258bffcdb44b34bad2fb55f6b44d87a\tuliphook-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\tuliphook-subbuild\CMakeFiles\724ac3c741f81c2495a3d06143c0e8ae\tuliphook-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\tuliphook-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\tuliphook-subbuild\CMakeFiles\tuliphook-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{21A9CC8A-3381-36CC-AAEE-3EBC23AE3150}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

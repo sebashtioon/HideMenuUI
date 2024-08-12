@@ -1,0 +1,10 @@
+^C:\USERS\SEBAS\GDMODDING\HIDEMENUUI\_DEPS\TULIPHOOK-SUBBUILD\CMAKEFILES\724AC3C741F81C2495A3D06143C0E8AE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/sebas/GDmodding/HideMenuUI/_deps/tuliphook-subbuild -BC:/Users/sebas/GDmodding/HideMenuUI/_deps/tuliphook-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/sebas/GDmodding/HideMenuUI/_deps/tuliphook-subbuild/tuliphook-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

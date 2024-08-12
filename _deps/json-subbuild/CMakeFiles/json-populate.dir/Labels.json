@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/json-subbuild/CMakeFiles/json-populate"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/json-subbuild/CMakeFiles/6e9c13e87eb5f0ade7f2c2b955960e47/json-populate.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/json-subbuild/CMakeFiles/ec4769b9d16f902abf82d450298e5a4c/json-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/json-subbuild/CMakeFiles/0087e7b963a11ff619dc1915ecb1b8f6/json-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/json-subbuild/CMakeFiles/0087e7b963a11ff619dc1915ecb1b8f6/json-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/json-subbuild/CMakeFiles/0087e7b963a11ff619dc1915ecb1b8f6/json-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/json-subbuild/CMakeFiles/0087e7b963a11ff619dc1915ecb1b8f6/json-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/json-subbuild/CMakeFiles/0087e7b963a11ff619dc1915ecb1b8f6/json-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/json-subbuild/CMakeFiles/0087e7b963a11ff619dc1915ecb1b8f6/json-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/json-subbuild/CMakeFiles/0087e7b963a11ff619dc1915ecb1b8f6/json-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/json-subbuild/CMakeFiles/0087e7b963a11ff619dc1915ecb1b8f6/json-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"json-populate"
+		],
+		"name" : "json-populate"
+	}
+}

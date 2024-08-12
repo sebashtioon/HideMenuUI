@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\fmt-subbuild\CMakeFiles\bcda02ad026eb7dbe807ab1c3956cd6c\fmt-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\fmt-subbuild\CMakeFiles\bcda02ad026eb7dbe807ab1c3956cd6c\fmt-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\fmt-subbuild\CMakeFiles\bcda02ad026eb7dbe807ab1c3956cd6c\fmt-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\fmt-subbuild\CMakeFiles\bcda02ad026eb7dbe807ab1c3956cd6c\fmt-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\fmt-subbuild\CMakeFiles\bcda02ad026eb7dbe807ab1c3956cd6c\fmt-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\fmt-subbuild\CMakeFiles\bcda02ad026eb7dbe807ab1c3956cd6c\fmt-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\fmt-subbuild\CMakeFiles\bcda02ad026eb7dbe807ab1c3956cd6c\fmt-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\fmt-subbuild\CMakeFiles\bcda02ad026eb7dbe807ab1c3956cd6c\fmt-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\fmt-subbuild\CMakeFiles\a641a1d4585e3753ecf13a920fc75ab2\fmt-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\fmt-subbuild\CMakeFiles\66433c8244cae4cfb234e0d9237c28ef\fmt-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\fmt-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\fmt-subbuild\CMakeFiles\fmt-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0232682D-6835-353E-B54E-51C68BC1F982}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

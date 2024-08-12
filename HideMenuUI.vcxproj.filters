@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\sebas\GDmodding\HideMenuUI\CMakeFiles\HideMenuUI.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sebas\GDmodding\HideMenuUI\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sebas\Documents\entry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\sebas\GDmodding\HideMenuUI\CMakeFiles\HideMenuUI.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sebas\GDmodding\HideMenuUI\CMakeFiles\HideMenuUI.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sebas\GDmodding\HideMenuUI\CMakeFiles\HideMenuUI.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\sebas\GDmodding\HideMenuUI\CMakeFiles\HideMenuUI.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{1192E13A-CCA0-3D8C-B316-085B8BCA6B16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D47C491F-5244-36F4-ADF8-487A0B7791CA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

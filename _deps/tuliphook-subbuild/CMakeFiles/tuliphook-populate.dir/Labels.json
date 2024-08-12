@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/tuliphook-subbuild/CMakeFiles/tuliphook-populate"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/tuliphook-subbuild/CMakeFiles/724ac3c741f81c2495a3d06143c0e8ae/tuliphook-populate.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/tuliphook-subbuild/CMakeFiles/c258bffcdb44b34bad2fb55f6b44d87a/tuliphook-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/tuliphook-subbuild/CMakeFiles/f63916b8888213e48cf96d1cd7ee9a66/tuliphook-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/tuliphook-subbuild/CMakeFiles/f63916b8888213e48cf96d1cd7ee9a66/tuliphook-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/tuliphook-subbuild/CMakeFiles/f63916b8888213e48cf96d1cd7ee9a66/tuliphook-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/tuliphook-subbuild/CMakeFiles/f63916b8888213e48cf96d1cd7ee9a66/tuliphook-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/tuliphook-subbuild/CMakeFiles/f63916b8888213e48cf96d1cd7ee9a66/tuliphook-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/tuliphook-subbuild/CMakeFiles/f63916b8888213e48cf96d1cd7ee9a66/tuliphook-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/tuliphook-subbuild/CMakeFiles/f63916b8888213e48cf96d1cd7ee9a66/tuliphook-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/tuliphook-subbuild/CMakeFiles/f63916b8888213e48cf96d1cd7ee9a66/tuliphook-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tuliphook-populate"
+		],
+		"name" : "tuliphook-populate"
+	}
+}

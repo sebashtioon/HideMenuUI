@@ -1,0 +1,150 @@
+^C:\USERS\SEBAS\GDMODDING\HIDEMENUUI\_DEPS\RESULT-SUBBUILD\CMAKEFILES\7B46A872FE39BAE86FBACCCAC2C5455A\RESULT-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/result-populate-prefix/tmp/result-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/result-populate-prefix/src/result-populate-stamp/Debug/result-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SEBAS\GDMODDING\HIDEMENUUI\_DEPS\RESULT-SUBBUILD\CMAKEFILES\7B46A872FE39BAE86FBACCCAC2C5455A\RESULT-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\sebas\GDmodding\HideMenuUI\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/result-populate-prefix/tmp/result-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/result-populate-prefix/src/result-populate-stamp/Debug/result-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SEBAS\GDMODDING\HIDEMENUUI\_DEPS\RESULT-SUBBUILD\CMAKEFILES\7B46A872FE39BAE86FBACCCAC2C5455A\RESULT-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\sebas\GDmodding\HideMenuUI\_deps\result-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/result-populate-prefix/tmp/result-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SEBAS\GDMODDING\HIDEMENUUI\_DEPS\RESULT-SUBBUILD\CMAKEFILES\7B46A872FE39BAE86FBACCCAC2C5455A\RESULT-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/result-populate-prefix/src/result-populate-stamp/Debug/result-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SEBAS\GDMODDING\HIDEMENUUI\_DEPS\RESULT-SUBBUILD\CMAKEFILES\7B46A872FE39BAE86FBACCCAC2C5455A\RESULT-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\sebas\GDmodding\HideMenuUI\_deps\result-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/result-populate-prefix/src/result-populate-stamp/Debug/result-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SEBAS\GDMODDING\HIDEMENUUI\_DEPS\RESULT-SUBBUILD\CMAKEFILES\7B46A872FE39BAE86FBACCCAC2C5455A\RESULT-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\sebas\GDmodding\HideMenuUI\_deps\result-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/result-populate-prefix/src/result-populate-stamp/Debug/result-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SEBAS\GDMODDING\HIDEMENUUI\_DEPS\RESULT-SUBBUILD\CMAKEFILES\7B46A872FE39BAE86FBACCCAC2C5455A\RESULT-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\sebas\GDmodding\HideMenuUI\_deps\result-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/result-populate-prefix/src/result-populate-stamp/Debug/result-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SEBAS\GDMODDING\HIDEMENUUI\_DEPS\RESULT-SUBBUILD\CMAKEFILES\7B46A872FE39BAE86FBACCCAC2C5455A\RESULT-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\sebas\GDmodding\HideMenuUI\_deps\result-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/result-populate-prefix/src/result-populate-stamp/Debug/result-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SEBAS\GDMODDING\HIDEMENUUI\_DEPS\RESULT-SUBBUILD\CMAKEFILES\DC5882B1E4C61B8AE9250D95EEBAE37C\RESULT-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/CMakeFiles/Debug/result-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/result-populate-prefix/src/result-populate-stamp/Debug/result-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SEBAS\GDMODDING\HIDEMENUUI\_DEPS\RESULT-SUBBUILD\CMAKEFILES\74A2645123FEC9C72DDC225947515FBE\RESULT-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SEBAS\GDMODDING\HIDEMENUUI\_DEPS\RESULT-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild -BC:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild --check-stamp-file C:/Users/sebas/GDmodding/HideMenuUI/_deps/result-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

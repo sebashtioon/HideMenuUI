@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\json-subbuild\CMakeFiles\6e9c13e87eb5f0ade7f2c2b955960e47\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C89C62E1-76BE-34AF-86A9-CE4E0DB324BE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

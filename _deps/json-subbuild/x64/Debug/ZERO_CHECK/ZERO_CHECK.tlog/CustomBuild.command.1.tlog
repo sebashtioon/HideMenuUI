@@ -1,0 +1,10 @@
+^C:\USERS\SEBAS\GDMODDING\HIDEMENUUI\_DEPS\JSON-SUBBUILD\CMAKEFILES\6E9C13E87EB5F0ADE7F2C2B955960E47\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/sebas/GDmodding/HideMenuUI/_deps/json-subbuild -BC:/Users/sebas/GDmodding/HideMenuUI/_deps/json-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/sebas/GDmodding/HideMenuUI/_deps/json-subbuild/json-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

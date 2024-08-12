@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\tuliphook-subbuild\CMakeFiles\724ac3c741f81c2495a3d06143c0e8ae\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{21A9CC8A-3381-36CC-AAEE-3EBC23AE3150}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

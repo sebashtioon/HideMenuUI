@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\CMakeFiles\cd0c6d3e6f9fa8909ca083ccb2882201\HideMenuUI_PACKAGE.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\sebas\GDmodding\HideMenuUI\CMakeFiles\HideMenuUI_PACKAGE" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F036EA44-87C0-3AF3-A17D-3FED167CDF68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\result-subbuild\CMakeFiles\7b46a872fe39bae86fbacccac2c5455a\result-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\result-subbuild\CMakeFiles\7b46a872fe39bae86fbacccac2c5455a\result-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\result-subbuild\CMakeFiles\7b46a872fe39bae86fbacccac2c5455a\result-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\result-subbuild\CMakeFiles\7b46a872fe39bae86fbacccac2c5455a\result-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\result-subbuild\CMakeFiles\7b46a872fe39bae86fbacccac2c5455a\result-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\result-subbuild\CMakeFiles\7b46a872fe39bae86fbacccac2c5455a\result-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\result-subbuild\CMakeFiles\7b46a872fe39bae86fbacccac2c5455a\result-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\result-subbuild\CMakeFiles\7b46a872fe39bae86fbacccac2c5455a\result-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\result-subbuild\CMakeFiles\dc5882b1e4c61b8ae9250d95eebae37c\result-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\result-subbuild\CMakeFiles\74a2645123fec9c72ddc225947515fbe\result-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\result-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\sebas\GDmodding\HideMenuUI\_deps\result-subbuild\CMakeFiles\result-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F3C038FF-1237-3F4D-8EFE-A07239ABAB39}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

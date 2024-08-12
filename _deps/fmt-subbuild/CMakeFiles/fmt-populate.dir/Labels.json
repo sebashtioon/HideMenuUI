@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/fmt-subbuild/CMakeFiles/fmt-populate"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/fmt-subbuild/CMakeFiles/66433c8244cae4cfb234e0d9237c28ef/fmt-populate.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/fmt-subbuild/CMakeFiles/a641a1d4585e3753ecf13a920fc75ab2/fmt-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/fmt-subbuild/CMakeFiles/bcda02ad026eb7dbe807ab1c3956cd6c/fmt-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/fmt-subbuild/CMakeFiles/bcda02ad026eb7dbe807ab1c3956cd6c/fmt-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/fmt-subbuild/CMakeFiles/bcda02ad026eb7dbe807ab1c3956cd6c/fmt-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/fmt-subbuild/CMakeFiles/bcda02ad026eb7dbe807ab1c3956cd6c/fmt-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/fmt-subbuild/CMakeFiles/bcda02ad026eb7dbe807ab1c3956cd6c/fmt-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/fmt-subbuild/CMakeFiles/bcda02ad026eb7dbe807ab1c3956cd6c/fmt-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/fmt-subbuild/CMakeFiles/bcda02ad026eb7dbe807ab1c3956cd6c/fmt-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/sebas/GDmodding/HideMenuUI/_deps/fmt-subbuild/CMakeFiles/bcda02ad026eb7dbe807ab1c3956cd6c/fmt-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"fmt-populate"
+		],
+		"name" : "fmt-populate"
+	}
+}
