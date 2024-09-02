@@ -9,119 +9,111 @@ using namespace geode::prelude;
 bool UI_Hidden = false;
 
 class $modify(MyMenuLayer, MenuLayer) {
-	bool init() {
-		if (!MenuLayer::init())
-			return false;
-		
+public:
+    struct Fields {
+        // Member variables to store the original positions of the menus
+        CCPoint playerUserName_Pos;
+        CCPoint centerMenu_Pos;
+        CCPoint bottomMenu_Pos;
+        CCPoint rightMenu_Pos;
+        CCPoint profileMenu_Pos;
+        CCPoint moreGamesMenu_Pos;
+        CCPoint socialMediaMenu_Pos;
+        CCPoint mainTitle_Pos;
+        CCPoint sideMenu_Pos;
+        CCPoint closeMenu_Pos;
+    };
 
-		/*
-		Set the variable to false, to prevent needing to press it twice to hide UI
-		Due to exiting the layer while it is set to true.
-		*/
-		UI_Hidden = false;
+    bool init() {
+        if (!MenuLayer::init())
+            return false;
 
-		auto winSize = CCDirector::get()->getWinSize(); // Get the window size and store it in a variable. Basically useless here.
+        UI_Hidden = false;
 
-		auto topRightMenu = this->getChildByID("top-right-menu"); // Get the menu that the button will be a child of
+        auto topRightMenu = this->getChildByID("top-right-menu");
 
-		// Create sprite for the Hide button
-		auto hideBtn_Sprite = ButtonSprite::create("Hide", 1.0); 
-		hideBtn_Sprite->setScale(0.550); // Set the scale
+        // Create sprite for the Hide button
+        auto hideBtn_Sprite = ButtonSprite::create("Hide", 1.0);
+        hideBtn_Sprite->setScale(0.550);
+        hideBtn_Sprite->setCascadeOpacityEnabled(true);
 
-		// Ensure cascade opacity is enabled
-		hideBtn_Sprite->setCascadeOpacityEnabled(true);
+        // Create the button with the sprite
+        auto hideButton = CCMenuItemSpriteExtra::create(
+            hideBtn_Sprite,
+            this,
+            menu_selector(MyMenuLayer::onHideButton)
+        );
 
-		// Create the button with the sprite
-		auto hideButton = CCMenuItemSpriteExtra::create(
-			hideBtn_Sprite,
-			this,
-			menu_selector(MyMenuLayer::onHideButton) // Assign callback function
-		);
+        hideButton->setID("hide-button-sprite");
+        hideButton->setPosition({177.0, 39.0});
+        hideButton->setCascadeOpacityEnabled(true);
+        hideButton->setOpacity(90);
 
-		hideButton->setID("hide-button-sprite"); // Set the ID of the button, so we can access it elsewhere in the code.
-		hideButton->setPosition({177.0, 39.0}); // Set the position of the button
+        topRightMenu->addChild(hideButton);
 
-		// Set the button (CCMenuItemSpriteExtra) to 50% opacity
-		hideButton->setCascadeOpacityEnabled(true);
-		hideButton->setOpacity(90); // 127 is 50% of 255, the maximum opacity
+        // Initialize the original positions after the menus are set up
+        this->m_fields->playerUserName_Pos = this->getChildByID("player-username")->getPosition();
+        this->m_fields->centerMenu_Pos = this->getChildByID("main-menu")->getPosition();
+        this->m_fields->bottomMenu_Pos = this->getChildByID("bottom-menu")->getPosition();
+        this->m_fields->rightMenu_Pos = this->getChildByID("right-side-menu")->getPosition();
+        this->m_fields->profileMenu_Pos = this->getChildByID("profile-menu")->getPosition();
+        this->m_fields->moreGamesMenu_Pos = this->getChildByID("more-games-menu")->getPosition();
+        this->m_fields->socialMediaMenu_Pos = this->getChildByID("social-media-menu")->getPosition();
+        this->m_fields->mainTitle_Pos = this->getChildByID("main-title")->getPosition();
+        this->m_fields->sideMenu_Pos = this->getChildByID("side-menu")->getPosition();
+        this->m_fields->closeMenu_Pos = this->getChildByID("close-menu")->getPosition();
 
-		topRightMenu->addChild(hideButton); // Add the button to the top right menu
+        return true;
+    }
 
-		return true; // Indicates that the layer is fully initialized.
-	}
+    void onHideButton(CCObject* sender) {
+        auto hideButton = static_cast<CCMenuItemSpriteExtra*>(sender);
 
-	// Where the magic happens! This function is called when the Hide button is pressed.
-	void onHideButton(CCObject* sender) {
-		// Cast sender to CCMenuItemSpriteExtra to access the button
-		auto hideButton = static_cast<CCMenuItemSpriteExtra*>(sender);
+        auto playerUserName = this->getChildByID("player-username");
+        auto centerMenu = this->getChildByID("main-menu");
+        auto bottomMenu = this->getChildByID("bottom-menu");
+        auto rightMenu = this->getChildByID("right-side-menu");
+        auto profileMenu = this->getChildByID("profile-menu");
+        auto moreGamesMenu = this->getChildByID("more-games-menu");
+        auto socialMediaMenu = this->getChildByID("social-media-menu");
+        auto mainTitle = this->getChildByID("main-title");
+        auto sideMenu = this->getChildByID("side-menu");
+        auto closeMenu = this->getChildByID("close-menu");
 
-		// Ensure hideButton is valid
-		if (hideButton) {
-			// Get the ButtonSprite and then its label
-			auto hideButtonSprite = static_cast<ButtonSprite*>(hideButton->getNormalImage());
+        if (hideButton) {
+            auto hideButtonSprite = static_cast<ButtonSprite*>(hideButton->getNormalImage());
 
-			// Run checks
-			if (UI_Hidden == false) { // Check if UI_Hidden is false
-				UI_Hidden = true;
-				hideButtonSprite->setString("Show"); // Set string to "Show"
+            if (!UI_Hidden) {
+                UI_Hidden = true;
+                hideButtonSprite->setString("Show");
 
+                // Move menus off-screen
+                playerUserName->setPosition({2000.0, 2000.0});
+                centerMenu->setPosition({2000.0, 2000.0});
+                bottomMenu->setPosition({2000.0, 2000.0});
+                rightMenu->setPosition({2000.0, 2000.0});
+                profileMenu->setPosition({2000.0, 2000.0});
+                socialMediaMenu->setPosition({2000.0, 2000.0});
+                mainTitle->setPosition({2000.0, 2000.0});
+                sideMenu->setPosition({2000.0, 2000.0});
+                moreGamesMenu->setPosition({2000.0, 2000.0});
+                closeMenu->setPosition({2000.0, 2000.0});
+            } else {
+                UI_Hidden = false;
+                hideButtonSprite->setString("Hide");
 
-				// Get all the menu's and store them in variables
-				auto playerUserName = this->getChildByID("player-username");
-				auto centerMenu = this->getChildByID("main-menu");
-				auto bottomMenu = this->getChildByID("bottom-menu");
-				auto rightMenu = this->getChildByID("right-side-menu");
-				auto profileMenu = this->getChildByID("profile-menu");
-				auto moreGamesMenu = this->getChildByID("more-games-menu");
-				auto socialMediaMenu = this->getChildByID("social-media-menu");
-				auto mainTitle = this->getChildByID("main-title");
-				auto sideMenu = this->getChildByID("side-menu");
-				auto closeMenu = this->getChildByID("close-menu");
-
-				// Set all menu's to a position off the screen
-				playerUserName->setPosition({2000.0, 2000.0});
-				centerMenu->setPosition({2000.0, 2000.0});
-				bottomMenu->setPosition({2000.0, 2000.0});
-				rightMenu->setPosition({2000.0, 2000.0});
-				profileMenu->setPosition({2000.0, 2000.0});
-				socialMediaMenu->setPosition({2000.0, 2000.0});
-				mainTitle->setPosition({2000.0, 2000.0});
-				sideMenu->setPosition({2000.0, 2000.0});
-				moreGamesMenu->setPosition({2000.0, 2000.0});
-				closeMenu->setPosition({2000.0, 2000.0});
-
-
-
-
-			} else if (UI_Hidden == true) { // Check if UI_Hidden is true
-				UI_Hidden = false;
-
-				// Get all the menu's and store them in variables
-				auto playerUserName = this->getChildByID("player-username");
-				auto centerMenu = this->getChildByID("main-menu");
-				auto bottomMenu = this->getChildByID("bottom-menu");
-				auto rightMenu = this->getChildByID("right-side-menu");
-				auto profileMenu = this->getChildByID("profile-menu");
-				auto moreGamesMenu = this->getChildByID("more-games-menu");
-				auto socialMediaMenu = this->getChildByID("social-media-menu");
-				auto mainTitle = this->getChildByID("main-title");
-				auto sideMenu = this->getChildByID("side-menu");
-				auto closeMenu = this->getChildByID("close-menu");
-
-				// Set all menu's to original position.
-				playerUserName->setPosition({47.000, 141.000});
-				centerMenu->setPosition({284.500, 170.000});
-				bottomMenu->setPosition({284.500, 45.000});
-				rightMenu->setPosition({529.000, 180.000});
-				profileMenu->setPosition({91.000, 105.000});
-				socialMediaMenu->setPosition({13.000, 13.000});
-				mainTitle->setPosition({284.500, 270.000});
-				sideMenu->setPosition({25.000, 215.000});
-				moreGamesMenu->setPosition({513.125, 45.000});//
-				closeMenu->setPosition({1.897, 318.103});
-
-				hideButtonSprite->setString("Hide"); // Set string to "Hide"
-			}
-		}
-	}
+                // Restore original positions
+                playerUserName->setPosition(this->m_fields->playerUserName_Pos);
+                centerMenu->setPosition(this->m_fields->centerMenu_Pos);
+                bottomMenu->setPosition(this->m_fields->bottomMenu_Pos);
+                rightMenu->setPosition(this->m_fields->rightMenu_Pos);
+                profileMenu->setPosition(this->m_fields->profileMenu_Pos);
+                moreGamesMenu->setPosition(this->m_fields->moreGamesMenu_Pos);
+                socialMediaMenu->setPosition(this->m_fields->socialMediaMenu_Pos);
+                mainTitle->setPosition(this->m_fields->mainTitle_Pos);
+                sideMenu->setPosition(this->m_fields->sideMenu_Pos);
+                closeMenu->setPosition(this->m_fields->closeMenu_Pos);
+            }
+        }
+    }
 };
